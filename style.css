@@ -1,0 +1,812 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  @media only screen and (max-width: 850px) {
+    .menu {
+      width: 100%;
+      padding: 9px 0px 9px 12px;
+      background-color: #358AAF;
+      position: absolute;
+      top: 0;
+      z-index: 1100;
+    }
+    .Logo{
+      width: 100px;
+      height: 34px;
+    }
+    .icon-person {
+        width: 34px;
+        height: 34px;
+        background-color: #FFFFFF;
+    }
+    .person-nav {
+        padding: 19px;
+        background-color: #FFFFFF;
+    }
+    .drop-menu {
+      text-decoration: none;
+      font-family: lato, sans-serif;
+      font-style: normal;
+      font-size: 12px;
+      padding: 10px;
+      color: #FFFFFF;
+    }
+    .drop-menu:hover {
+      color: #0F232C;
+    }
+    .drop {
+      padding-top: 5px;
+    }
+    .correo-nav{
+      width: 12px;
+      padding-bottom: 3.5px;
+    }
+    .drop-con-list{
+      width: 198px;
+    }
+    .drop-nos-list{
+      width: 175px;
+    }
+    .landing{
+      background-image: url("imagenes/back.png");
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center center;
+    }
+    .home{
+      background-image: url("imagenes/imagen-home.png");
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center center;
+    }
+    .home-text{
+      padding: 267.5px 0px
+    }
+    .h1-titulo{
+      font-size: 1.5rem;
+      font-family: lato, sans-serif;
+      font-weight: 900;
+      font-style: italic;
+      color: #0F232C;
+      text-align: left;
+      width: 50%;
+      padding: 7px;
+      margin-left: 20px;
+    }
+    .h6-eslogan{
+      font-family: lato, sans-serif;
+      font-style: normal;
+      font-weight: 700;
+      color: white;
+      background-color: #0F232C;
+      text-align: center;
+      width: 40%;
+      padding: 7px;
+      margin-left: 40px;
+    }
+    .title {
+      font-size: 2rem;
+      font-family: lato, sans-serif;
+      font-weight: 900;
+      font-style: normal;
+      color: #0F232C;
+      border-bottom: 3px solid #358AAF;
+      width: 50%;
+      padding-bottom: 7px;
+      margin: 100px 0px 20px 40px;
+    }
+    .text {
+      margin: 150px 80px;
+    }
+    .paragraph-nos {
+      font-size: 1rem;
+      font-family: lato,sans-serif;
+      font-weight: 400;
+      font-style: normal;
+      color: #0F232C;
+    }
+    .imagen-1-nos {
+      width: 60%;
+      padding: 20px;
+      margin-left: 100px;
+      background-color: white;
+      border: 2px outset gainsboro;
+      border-radius: 15px;
+      border-radius: 15px;
+      box-shadow: -15px -15px 10px rgba(15, 35, 44, 0.1),
+                  15px 15px 10px rgba(15, 35, 44, 0.1),
+                  -15px 15px 10px rgba(15, 35, 44, 0.1),
+                  15px -15px 10px rgba(15, 35, 44, 0.1); 
+    }
+    .imagen-2-nos {
+      width: 60%;
+      padding: 20px;
+      margin-right: 100px;
+      background-color: white;
+      border: 2px outset gainsboro;
+      border-radius: 15px;
+      box-shadow: -15px -15px 10px rgba(15, 35, 44, 0.1),
+                  15px 15px 10px rgba(15, 35, 44, 0.1),
+                  -15px 15px 10px rgba(15, 35, 44, 0.1),
+                  15px -15px 10px rgba(15, 35, 44, 0.1); 
+    }
+    .cars-borders {
+      margin: 100px 40px;
+      z-index: 0;
+    }
+    .card-index {
+      z-index: 0;
+    }
+    .card-body {
+      border-radius: 10px;
+      background-color: #0F232C;
+    }
+    .card-title {
+      font-family: lato,sans-serif;
+      font-weight: 400;
+      font-style: normal;
+      padding: 10px 5px;
+      text-align: center;
+      color: white;
+      background-color: #0F232C;
+    }
+    .card-text {
+      font-family: lato,sans-serif;
+      font-weight: 400;
+      font-style: normal;
+      text-align: center;
+      color: white;
+      background-color: #0F232C;
+    }
+    .car-borders {
+      margin: 80px 60px 80px 80px;
+    }
+    .car-img {
+      padding: 15px;
+      background-color: #358AAF;
+      border-radius: 25%;
+    }
+    .car-div {
+      margin: 20px 0px
+    }
+    .body-car {
+       padding: 15px 0px 15px 15px;
+    }
+    .title-car {
+      font-size: 1.5rem;
+      font-family: lato,sans-serif;
+      font-weight: 400;
+      font-style: normal;
+      color: #0F232C;
+      margin-bottom: 20px;
+
+    }
+    .p-car {
+      font-size: 1rem;
+      font-family: lato,sans-serif;
+      font-weight: 400;
+      font-style: normal;
+      line-height: 25px;
+      color: #0F232C;
+    }
+    .img-pasos{
+      width: 30%;
+    }
+    .footer {
+      background-color: #358AAF;
+    }
+    .foot {
+      padding: 2% 1%;
+    }
+    .img-foot-c {
+      width: 5%;
+    }
+    .img-foot-u {
+      width: 14.735%;
+    }
+    .text-b-foot {
+      height: 91.13px;
+      display: flex;
+      flex-direction: column;
+    }
+    .text-foot {
+      font-size: 1rem;
+      font-family: lato,sans-serif;
+      font-weight: 400;
+      font-style: normal;
+      color: white;
+      margin: 0.9rem 0px;
+    }
+}
+  @media only screen and (min-width: 851px) and (max-width: 1600px) {
+    /* ------------------------------------------------ INDEX ----------------------------------------------------- */
+    .menu {
+      width: 100%;
+      padding: 12px 0px 12px 16px;
+      background-color: #358AAF;
+      position: fixed;
+    }
+    .Logo{
+      width: 130px;
+      height: 44px;
+    }
+    .icon-person {
+        width: 44px;
+        height: 44px;
+        background-color: #FFFFFF;
+    }
+    .person-nav {
+        padding: 25.5px;
+        background-color: #FFFFFF;
+    }
+    .drop-menu {
+      text-decoration: none;
+      font-family: lato, sans-serif;
+      font-style: normal;
+      font-size: 16px;
+      padding: 12px;
+      color: #FFFFFF;
+    }
+    .drop-menu:hover {
+      color: #0F232C;
+    }
+    .drop {
+      padding-top: 11px;
+    }
+    .correo-nav{
+      width: 16px;
+      padding-bottom: 3.5px;
+    }
+    .drop-con-list{
+      width: 198px;
+    }
+    .drop-nos-list{
+      width: 175px;
+    }
+    .landing{
+      background-image: url("imagenes/back.png");
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center center;
+    }
+    .home{
+      background-image: url("imagenes/imagen-home.png");
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center center;
+    }
+    .home-text{
+      padding: 267.5px 0px
+    }
+    .h1-titulo{
+      font-size: 2.5rem;
+      font-family: lato, sans-serif;
+      font-weight: 900;
+      font-style: italic;
+      color: #0F232C;
+      text-align: left;
+      width: 50%;
+      padding: 7px;
+      margin-left: 30px;
+    }
+    .h6-eslogan{
+      font-family: lato, sans-serif;
+      font-style: normal;
+      font-weight: 700;
+      color: white;
+      background-color: #0F232C;
+      text-align: center;
+      width: 25%;
+      padding: 7px;
+      margin-top: 15px;
+      margin-left: 50px;
+    }
+    .title {
+      font-size: 3.5rem;
+      font-family: lato, sans-serif;
+      font-weight: 900;
+      font-style: normal;
+      color: #0F232C;
+      border-bottom: 3px solid #358AAF;
+      width: 50%;
+      padding-bottom: 7px;
+      margin: 150px 0px 20px 60px;
+    }
+    .text {
+      margin: 150px 70px;
+    }
+    .paragraph-nos {
+      font-size: 1.5rem;
+      font-family: lato,sans-serif;
+      font-weight: 400;
+      font-style: normal;
+      color: #0F232C;
+    }
+    .imagen-1-nos {
+      width: 60%;
+      padding: 20px;
+      margin-left: 175px;
+      background-color: white;
+      border: 2px outset gainsboro;
+      border-radius: 15px;
+      border-radius: 15px;
+      box-shadow: -15px -15px 10px rgba(15, 35, 44, 0.1),
+                  15px 15px 10px rgba(15, 35, 44, 0.1),
+                  -15px 15px 10px rgba(15, 35, 44, 0.1),
+                  15px -15px 10px rgba(15, 35, 44, 0.1); 
+    }
+    .imagen-2-nos {
+      width: 60%;
+      padding: 20px;
+      margin-right: 150px;
+      background-color: white;
+      border: 2px outset gainsboro;
+      border-radius: 15px;
+      box-shadow: -15px -15px 10px rgba(15, 35, 44, 0.1),
+                  15px 15px 10px rgba(15, 35, 44, 0.1),
+                  -15px 15px 10px rgba(15, 35, 44, 0.1),
+                  15px -15px 10px rgba(15, 35, 44, 0.1); 
+    }
+    .cars-borders {
+      margin: 120px 55px;
+    }
+    .card-body {
+      border-radius: 10px;
+      background-color: #0F232C;
+    }
+    .card-title {
+      font-family: lato,sans-serif;
+      font-weight: 400;
+      font-style: normal;
+      font-size: 1rem;
+      padding: 7.5px 3.75px;
+      text-align: center;
+      color: white;
+      background-color: #0F232C;
+    }
+    .card-text {
+      font-family: lato,sans-serif;
+      font-weight: 400;
+      font-style: normal;
+      font-size: 1rem;
+      text-align: center;
+      color: white;
+      background-color: #0F232C;
+    }
+    .car-borders {
+      margin: 70px 50px 50px 50px;
+    }
+    .car-img {
+      padding: 20px;
+      background-color: #358AAF;
+      border-radius: 25%;
+    }
+    .car-div {
+      margin: 30px 0px
+    }
+    .body-car {
+       padding: 20px 0px 20px 20px;
+    }
+    .title-car {
+      font-size: 2rem;
+      font-family: lato,sans-serif;
+      font-weight: 400;
+      font-style: normal;
+      color: #0F232C;
+      margin-bottom: 20px;
+
+    }
+    .p-car {
+      font-size: 1.5rem;
+      font-family: lato,sans-serif;
+      font-weight: 400;
+      font-style: normal;
+      line-height: 25px;
+      color: #0F232C;
+    }
+    .img-pasos{
+      width: 40%;
+    }
+    .footer {
+      background-color: #358AAF;
+    }
+    .foot {
+      padding: 2% 1%;
+    }
+    .img-foot-c {
+      width: 5%;
+    }
+    .img-foot-u {
+      width: 14.735%;
+    }
+    .text-b-foot {
+      height: 91.13px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+    .text-foot {
+      font-size: 1rem;
+      font-family: lato,sans-serif;
+      font-weight: 400;
+      font-style: normal;
+      color: white;
+      margin: 0.5rem 0px;
+    }
+}
+  @media only screen and (min-width: 1601px) {
+    /* ------------------------------------------------ INDEX ----------------------------------------------------- */
+    .menu {
+      width: 100%;
+      padding: 15px 0px 15px 20px;
+      margin-bottom: 20px;
+      background-color: #358AAF;
+      position: fixed;
+      top: 0;
+    }
+    .Logo{
+      width: 159px;
+      height: 54px;
+    }
+    .icon-person {
+        width: 54px;
+        height: 54px;
+        background-color: #FFFFFF;
+    }
+    .person-nav {
+        padding: 34px;
+        background-color: #FFFFFF;
+    }
+    .drop-menu {
+      text-decoration: none;
+      font-family: lato, sans-serif;
+      font-style: normal;
+      font-size: 20px;
+      padding: 25px;
+      color: #FFFFFF;
+    }
+    .drop-menu:hover {
+      color: #0F232C;
+    }
+    .drop {
+      padding-top: 12.5px;
+    }
+    .correo-nav{
+      width: 20px;
+      padding-bottom: 3.5px;
+    }
+    .drop-con-list{
+      width: 198px;
+    }
+    .drop-nos-list{
+      width: 175px;
+    }
+    .landing{
+      background-image: url("imagenes/back.png");
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center center;
+    }
+    .home{
+      background-image: url("imagenes/imagen-home.png");
+      height: 736px;
+    }
+    .home-text{
+      padding: 267.5px 0px
+    }
+    .h1-titulo{
+      font-size: 3rem;
+      font-family: lato, sans-serif;
+      font-weight: 900;
+      font-style: italic;
+      color: #0F232C;
+      text-align: left;
+      width: 40%;
+      padding: 7px;
+      margin: 0px 1250px 0px 50px;
+    }
+    .h6-eslogan{
+      font-family: lato, sans-serif;
+      font-style: normal;
+      font-weight: 700;
+      color: white;
+      background-color: #0F232C;
+      text-align: center;
+      width: 18%;
+      padding: 7px;
+      margin: 40px 1250px 0px 60px;
+    }
+    .title {
+      font-size: 5rem;
+      font-family: lato, sans-serif;
+      font-weight: 900;
+      font-style: normal;
+      color: #0F232C;
+      border-bottom: 3px solid #358AAF;
+      width: 50%;
+      padding-bottom: 7px;
+      margin: 150px 960px 20px 60px;
+    }
+    .text {
+      margin: 150px 80px;
+    }
+    .paragraph-nos {
+      font-size: 2rem;
+      font-family: lato,sans-serif;
+      font-weight: 400;
+      font-style: normal;
+      color: #0F232C;
+    }
+    .imagen-1-nos {
+      width: 60%;
+      padding: 20px;
+      margin-left: 300px;
+      background-color: white;
+      border: 2px outset gainsboro;
+      border-radius: 15px;
+      border-radius: 15px;
+      box-shadow: -15px -15px 10px rgba(15, 35, 44, 0.1),
+                  15px 15px 10px rgba(15, 35, 44, 0.1),
+                  -15px 15px 10px rgba(15, 35, 44, 0.1),
+                  15px -15px 10px rgba(15, 35, 44, 0.1); 
+    }
+    .imagen-2-nos {
+      width: 60%;
+      padding: 20px;
+      margin-right: 300px;
+      background-color: white;
+      border: 2px outset gainsboro;
+      border-radius: 15px;
+      box-shadow: -15px -15px 10px rgba(15, 35, 44, 0.1),
+                  15px 15px 10px rgba(15, 35, 44, 0.1),
+                  -15px 15px 10px rgba(15, 35, 44, 0.1),
+                  15px -15px 10px rgba(15, 35, 44, 0.1); 
+    }
+    .cars-borders {
+      margin: 140px 70px;
+    }
+    .card-body {
+      border-radius: 10px;
+      background-color: #0F232C;
+    }
+    .card-title {
+      font-family: lato,sans-serif;
+      font-weight: 400;
+      font-style: normal;
+      padding: 10px 5px;
+      text-align: center;
+      color: white;
+      background-color: #0F232C;
+    }
+    .card-text {
+      font-family: lato,sans-serif;
+      font-weight: 400;
+      font-style: normal;
+      height: 12vh;
+      text-align: center;
+      color: white;
+      background-color: #0F232C;
+    }
+    .car-borders {
+      margin: 80px 60px 80px 80px;
+    }
+    .car-img {
+      padding: 25px;
+      background-color: #358AAF;
+      border-radius: 25%;
+    }
+    .car-div {
+      margin: 40px 0px
+    }
+    .body-car {
+       padding: 25px 0px 25px 25px;
+    }
+    .title-car {
+      font-size: 2.5rem;
+      font-family: lato,sans-serif;
+      font-weight: 400;
+      font-style: normal;
+      color: #0F232C;
+      margin-bottom: 20px;
+
+    }
+    .p-car {
+      font-size: 1.5rem;
+      font-family: lato,sans-serif;
+      font-weight: 400;
+      font-style: normal;
+      line-height: 25px;
+      color: #0F232C;
+    }
+    .img-pasos{
+      width: 50%;
+    }
+    .footer {
+      background-color: #358AAF;
+    }
+    .foot {
+      padding: 2% 1%;
+    }
+    .img-foot-c {
+      width: 5%;
+    }
+    .img-foot-u {
+      width: 14.735%;
+    }
+    .text-b-foot {
+      height: 91.13px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+    .text-foot {
+      font-size: 1.5rem;
+      font-family: lato,sans-serif;
+      font-weight: 400;
+      font-style: normal;
+      color: white;
+      margin: 0.5rem 0px;
+    }
+    /* ------------------------------------------------ CONTACTOS ----------------------------------------------------- */
+    .back-con {
+      margin: 150px 20% 60px 20%;
+      border-radius: 10px;
+      background-color: white;
+      box-shadow: -15px -15px 10px rgba(15, 35, 44, 0.1),
+                  15px 15px 10px rgba(15, 35, 44, 0.1),
+                  -15px 15px 10px rgba(15, 35, 44, 0.1),
+                  15px -15px 10px rgba(15, 35, 44, 0.1); 
+    }
+    .title-con {
+      background-image: url("imagenes/back-cont.png");
+      width: 100%;
+      border-top-left-radius: 10px;
+      border-top-right-radius: 10px;
+      font-size: 5.5rem;
+      font-family: lato, sans-serif;
+      font-weight: 900;
+      font-style: normal;
+      color: white;
+      height: 150px;
+    }
+    .borders-con-t {
+      margin: 20px;
+      padding-bottom: 20px;
+    }
+    .borders-label {
+      width: 40%;
+      padding: 1% 0px;
+    }
+    .labels {
+      font-size: 1.5rem;
+      font-family: lato,sans-serif;
+      font-weight: 400;
+      font-style: normal;
+      color: #0F232C;
+    }
+    .borders-textarea {
+      margin: 20px 5%;
+    }
+    .text-tarea {
+      height: 185px;
+      border-radius: 10px;
+      padding: 10px;
+      font-size: 1rem;
+      font-family: lato,sans-serif;
+      font-weight: 400;
+      font-style: normal;
+      color: #0F232C;
+    }
+    .inputs-cont {
+      padding: 10px;
+      font-size: 1rem;
+      font-family: lato,sans-serif;
+      font-weight: 400;
+      font-style: normal;
+      color: #0F232C;
+    }
+    .button-con {
+      padding: 1vh 8%;
+      margin: 15px 0px;
+      font-size: 1.5rem;
+      font-family: lato,sans-serif;
+      font-weight: 600;
+      font-style: normal;
+      background-color: #358AAF;
+      color: white;
+      border: 0;
+      border-radius: 10px;
+    }
+    /* ------------------------------------------------ LOGIN ----------------------------------------------------- */
+    .login-back {
+      background-image: url("imagenes/contenido-login.png");
+      width: 73.5%;
+      margin: 150px 13.25% 100px 13.25%;
+    }
+    .title-log {
+      font-size: 5rem;
+      font-family: lato, sans-serif;
+      font-weight: 900;
+      font-style: normal;
+      color: white;
+      padding: 10vh 15%;
+    }
+    .title-log-i {
+      font-size: 3rem;
+      font-family: lato, sans-serif;
+      font-weight: 900;
+      font-style: normal;
+      color: #0F232C;
+      width: 40%;
+      padding: 10vh 30%;
+    }
+    .div-log {
+      width: 80%;
+      margin: 5vh 10%;
+    }
+    .label-log {
+      font-size: 1.5rem;
+      font-family: lato,sans-serif;
+      font-weight: 400;
+      font-style: normal;
+      color: #0F232C;
+    }
+    .input-log {
+      width: 100%;
+      padding: 10px;
+      font-size: 1rem;
+      font-family: lato,sans-serif;
+      font-weight: 400;
+      font-style: normal;
+      color: #0F232C;
+    }
+    .aux-text {
+      margin-top: 10vh;
+      font-size: 1rem;
+      font-family: lato,sans-serif;
+      font-weight: 400;
+    }
+    .reg-link {
+      text-decoration: none;
+      margin-top: 5vh;
+      margin-bottom: 10vh;
+      padding: 1vh 5%;
+      font-size: 1.5rem;
+      font-family: lato,sans-serif;
+      font-weight: 400;
+      background-color: #0F232C;
+      color: white;
+    }
+    .reg-link:hover {
+      color: #358AAF;
+    }
+    /* ------------------------------------------------ REGISTRO ----------------------------------------------------- */
+    .back-registro {
+      margin: 150px 20% 60px 20%;
+      border-radius: 10px;
+      background-color: white;
+      box-shadow: -15px -15px 10px rgba(15, 35, 44, 0.1),
+                  15px 15px 10px rgba(15, 35, 44, 0.1),
+                  -15px 15px 10px rgba(15, 35, 44, 0.1),
+                  15px -15px 10px rgba(15, 35, 44, 0.1); 
+    }
+    .title-registro {
+      background-image: url("imagenes/back-registro.png");
+      width: 100%;
+      border-top-left-radius: 10px;
+      border-top-right-radius: 10px;
+      font-size: 5.5rem;
+      font-family: lato, sans-serif;
+      font-weight: 900;
+      font-style: normal;
+      color: white;
+      height: 150px;
+    }
+    .borders-label {
+      width: 100%;
+      padding: 1% 5%;
+    }
+}
