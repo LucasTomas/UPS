@@ -442,9 +442,9 @@
     .menu {
       width: 100%;
       padding: 15px 0px 15px 20px;
-      margin-bottom: 20px;
+      /* margin-bottom: 20px; */
       background-color: #358AAF;
-      position: fixed;
+      /* position: fixed; */
       top: 0;
     }
     .Logo{
@@ -495,7 +495,7 @@
       height: 736px;
     }
     .home-text{
-      padding: 267.5px 0px
+      margin-top: 183.5px;
     }
     .h1-titulo{
       font-size: 3rem;
@@ -809,4 +809,60 @@
       width: 100%;
       padding: 1% 5%;
     }
-}
+    /*-------------------------------------------------------REGISTROS/BASE-DE-DATOS-----------------------------------*/
+    .link-registros{
+      display: flex;
+      justify-content: flex-end;
+      text-decoration: none;
+      /* margin-top: 84px; */
+    }
+    .link-r-text {
+      color: white;
+      background-color: #0F232C;
+      padding: 20px;
+      font-size: 1.2rem;
+      font-family: lato,sans-serif;
+      font-weight: 600;
+      font-style: normal;
+    }
+    .registros-back{
+      margin: 100px 12.5%;
+    }
+    .title-registros {
+      margin-bottom: 50px;
+      font-size: 5.5rem;
+      font-family: lato, sans-serif;
+      font-weight: 900;
+      font-style: normal;
+    }
+    .row-registros{
+      padding: 1%;
+      margin: 0;
+      background-color: white;
+    }
+    .col-registros{
+      margin-left: 0px;
+      padding-left: 0px;
+    }
+    .subtitle-registros{
+      font-size: 1.5rem;
+      font-family: lato, sans-serif;
+      font-weight: 900;
+      font-style: normal;
+      padding: 5px;
+      margin-bottom: 0px;
+      border-bottom: 1px solid #0F232C;
+      border-left: 1px solid #0F232C;
+      border-right: 1px solid #0F232C;
+    }
+    .list-registros{
+      font-size: 1rem;
+      font-family: lato, sans-serif;
+      font-weight: 900;
+      font-style: normal;
+      padding: 15px 0px;
+      margin-bottom: 0px;
+      border-left: 1px solid #0F232C;
+      border-right: 1px solid #0F232C;
+    }
+  }
