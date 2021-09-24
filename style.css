@@ -491,7 +491,7 @@
       background-position: center center;
     }
     .home{
-      background-image: url("imagenes/imagen-home.png");
+      /* background-image: url("imagenes/imagen-home.png"); */
       height: 736px;
     }
     .home-text{
